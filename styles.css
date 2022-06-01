@@ -811,7 +811,7 @@ footer small {
 @media (max-width: 500px) {
   #hero .hero-text {
       width: 230px;
-      margin-left: 4em;
+      margin-left: 1em;
   }
 
   #hero h1 {
