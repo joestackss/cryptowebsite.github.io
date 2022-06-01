@@ -575,7 +575,7 @@ footer small {
 /* start: media queries */
 @media (max-width: 991px) {
   #logo {
-      top: 1px;
+      top: 2px;
   }
 
   #nav-toggle {
@@ -864,7 +864,7 @@ footer small {
   #hero .hero-text {
     max-width: 275px;
     width: 100%;
-    margin-left: 0.5em;
+    margin-left: 2em;
   }
 
   nav ul {
