@@ -706,7 +706,7 @@ footer small {
 
   #hero .hero-text {
       width: 300px;
-      margin-left: 3em;
+      margin-left: 2em;
   }
 
   #fact .flex > img {
@@ -811,7 +811,7 @@ footer small {
 @media (max-width: 500px) {
   #hero .hero-text {
       width: 230px;
-      margin-left: 1em;
+      margin-left: 2em;
   }
 
   #hero h1 {
