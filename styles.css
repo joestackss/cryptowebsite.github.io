@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
 
 /* start: global styles */
 body {
-    font-family: "Montserrat", "Sans-serif";
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     font-size: 1rem;
@@ -41,20 +40,24 @@ body {
     justify-content: space-between;
 }
 
-h1, h2, h3, h4, h5 {
+h3, h4, h5 {
     margin: 0;
     padding: 0;
 }
 
-h1, h2 {
+h2 {
   font-family: "Montserrat", "Sans-serif";
-  font-weight: 500;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
+  margin: 0;
+  padding: 0;
   font-size: 4rem;
   line-height: 1.0;
   margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 p {
@@ -297,13 +300,13 @@ header ul.is-sticky li a.active {
     padding: 40px 0;
     text-align: center;
   }
-  
+
   .inner-width{
     max-width: 1200px;
     margin: auto;
     padding: 0 20px;
   }
-  
+
   #clients h1{
     font-weight: 400;
     letter-spacing: 7px;
@@ -311,11 +314,11 @@ header ul.is-sticky li a.active {
     font-size: 20px;
     color: #032030;
   }
-  
+
   .client-pics{
     padding: 40px 0;
   }
-  
+
   .client-pics img{
     width: 80px;
     height: 80px;
@@ -325,36 +328,36 @@ header ul.is-sticky li a.active {
     transition: .3s;
     cursor: pointer;
   }
-  
+
   .client-pics img:hover, .client-pics img.active{
     filter: none;
   }
-  
-  
+
+
   .client-contents{
     max-width: 600px;
     margin: auto;
   }
-  
+
   .client{
     display: none;
   }
-  
+
   .client.active{
     display: block;
   }
-  
+
   .client p{
     color: #5c5c5c;
     margin-bottom: 20px;
   }
-  
+
   .client .description{
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 15px;
   }
-  
+
 /* end: client styles */
 
 /* start: fact styles */
