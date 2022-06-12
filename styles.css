@@ -89,7 +89,46 @@ p.large-paragraph {
     font-size: 1.25rem;
     font-weight: 300;
 }
+
+/* Containers */
+.container-fluid {
+    padding: 1% 7%;
+}
+
+.dropdown-toggle {
+    outline: 0;
+}
+
 /* end: global styles */
+
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0.5rem 0 1.0rem;
+    background: #032030;
+}
+
+.navbar-brand {
+    font-family: "Poppins";
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 17px;
+}
+
+.nav-link {
+    font-size: 1.0rem;
+    font-family: "Poppins";
+}
+
+.canv-pop-out {
+    background: #032030;
+    font-size: 1.5rem;
+    padding: 0 5% 0 0;
+}
 
 /* start: header styles */
 #header-hero-container {
