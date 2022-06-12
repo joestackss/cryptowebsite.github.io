@@ -43,6 +43,9 @@ body {
 h3, h4, h5 {
     margin: 0;
     padding: 0;
+    font-weight: 700;
+  font-size: 26px;
+  color: #728394;
 }
 
 h2 {
@@ -99,6 +102,20 @@ p.large-paragraph {
     outline: 0;
 }
 
+/* Headings */
+.big-heading {
+    color: #fff;
+    text-align: center;
+    font-weight: 900;
+    padding: 17% 0 0 0
+
+}
+
+p {
+    color: #fff;
+    text-align: center;
+    padding: 2% 0 4% 0;
+}
 /* end: global styles */
 
 
@@ -371,6 +388,76 @@ header ul.is-sticky li a.active {
 
 /* end: client styles */
 
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials .section-header {
+  margin-bottom: 40px;
+}
+.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+  overflow: hidden;
+}
+.testimonials .testimonial-item {
+  text-align: center;
+}
+.testimonials .testimonial-item .testimonial-img {
+  width: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin: 0 auto;
+}
+.testimonials .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+}
+.testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+}
+.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+  color: #90c8fc;
+  font-size: 26px;
+}
+.testimonials .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+.testimonials .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+.testimonials .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+}
+.testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #0563bb;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #0563bb;
+}
+@media (min-width: 992px) {
+  .testimonials .testimonial-item p {
+    width: 80%;
+  }
+}
+
+/*--------------------------------------------------------------
+
+
 /* start: fact styles */
 #fact {
   margin: 2rem 0;
@@ -401,17 +488,10 @@ header ul.is-sticky li a.active {
   margin-bottom: 2em;
 }
 
-#schedule-services h2 {
-    text-align: center;
-    display: inline-block;
-    border-bottom: 4px solid #032030;
-    font-size: 20px;
-    padding-bottom: 14px;
-    margin-top: 40px;
-    color:#032030 ;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    margin-bottom: 20px;
+#schedule-services h3 {
+font-weight: 700;
+font-size: 26px;
+color: #728394;
 }
 
 #schedule-services .flexing > div {
@@ -431,6 +511,7 @@ header ul.is-sticky li a.active {
 .personal-trainer-box {
   background: url('https://images.pexels.com/photos/1099299/pexels-photo-1099299.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') top center no-repeat;
   padding: 4rem 3rem 3rem;
+  text-align: center;
 }
 
 .personal-trainer-box h4 {
@@ -588,9 +669,9 @@ footer small {
       top: 2px;
   }
 
-  #nav-toggle {
+  /* #nav-toggle {
       display: block;
-  }
+  } */
 
   #active {
     border: 2px solid #fff;
@@ -599,7 +680,7 @@ footer small {
     letter-spacing: 2px;
   }
 
-  nav ul {
+  /* nav ul {
       position: fixed;
       background: #fff;
       right: -100%;
@@ -640,7 +721,7 @@ footer small {
   nav ul li a.active,
   nav ul li a:hover {
       color: #f69314;
-  }
+  } */
 
   #hero .hero-text {
     margin-left: 4em;
@@ -692,7 +773,9 @@ footer small {
   }
 
   h3 {
-      font-size: 1.2rem;
+    font-weight: 700;
+  font-size: 26px;
+  color: #728394;
   }
 
   .large-paragraph {
@@ -818,15 +901,36 @@ footer small {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 573px) {
   #hero .hero-text {
       width: 230px;
       margin-left: 2em;
   }
 
-  #hero h1 {
+  /* #hero h1 {
     font-size: 3em;
 
+  } */
+
+  .big-heading {
+      color: #fff;
+      text-align: center;
+      padding: 55% 0 0 0;
+  }
+
+  p {
+      color: #fff;
+      text-align: center;
+      padding: 3% 0 7% 0;
+  }
+
+  .download-button {
+      margin: 1% 20%;
+  }
+
+  .nav-link {
+      font-size: 1.2rem;
+      font-family: "Poppins";
   }
 
   #active {
